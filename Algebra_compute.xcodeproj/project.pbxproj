@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD6B62A12BC1013800BABA02 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD825F412BBA7BC600391F98 /* main.cpp */; };
+		AD6B62A32BC1155800BABA02 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD825F412BBA7BC600391F98 /* main.cpp */; };
 		ADB837942BBD0AE700E0179E /* dongVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADB837932BBC686A00E0179E /* dongVector.cpp */; };
 		ADB837952BBD0AE900E0179E /* dongMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADB837922BBC3ADA00E0179E /* dongMatrix.cpp */; };
 /* End PBXBuildFile section */
@@ -137,7 +137,7 @@
 			files = (
 				ADB837952BBD0AE900E0179E /* dongMatrix.cpp in Sources */,
 				ADB837942BBD0AE700E0179E /* dongVector.cpp in Sources */,
-				AD6B62A12BC1013800BABA02 /* main.cpp in Sources */,
+				AD6B62A32BC1155800BABA02 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

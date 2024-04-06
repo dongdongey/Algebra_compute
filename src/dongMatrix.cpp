@@ -167,12 +167,12 @@ double Matrix::determinant() const{
         double ret = (elements[0][0] * elements[1][1] - elements[1][0] * elements[0][1]);
         return ret;
     }else{
-        size_t i = 0;
+        const size_t i = 0;
         double ret = 0;
         for (size_t j = 0; j < this->row(); j++){
-            
-            ret += pow(-1,i+j)*elements[i][j]*(this->submatrix(i, j)).determinant();
-            
+            if(elements[i][j]!=0.0){
+                ret += pow(-1,i+j)*elements[i][j]*(this->submatrix(i, j)).determinant();
+            }
         }
         return ret;
     }
