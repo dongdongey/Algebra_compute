@@ -57,6 +57,15 @@ Vector::Vector(std::initializer_list<double> list){
     }
 }
 
+//=연산자
+Vector& Vector::operator=(Vector &other){
+    for(int i = 0; i < elements.size(); i++){
+        elements[i] = other[i];
+    }
+    return *this;
+}
+
+
 
 //벡터의 크기
 double Vector::magnitude(void) const {

@@ -59,6 +59,9 @@ public:
         }
     }
     
+    //=연산자
+    Vector& operator=(Vector &other);
+    
     //벡터의 크기
     double magnitude(void) const;
     // 벡터 덧셈
