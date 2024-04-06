@@ -25,7 +25,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AD5FADB12BC044C600C5C087 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = src/.gitignore; sourceTree = "<group>"; };
 		AD825F3E2BBA7BC600391F98 /* Algebra_compute */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algebra_compute; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD825F412BBA7BC600391F98 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		AD825F492BBA7BF100391F98 /* dongVector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = dongVector.hpp; sourceTree = "<group>"; };
@@ -51,7 +50,6 @@
 		AD825F352BBA7BC600391F98 = {
 			isa = PBXGroup;
 			children = (
-				AD5FADB12BC044C600C5C087 /* .gitignore */,
 				ADB837962BBD45E400E0179E /* README.md */,
 				AD825F512BBBEF3B00391F98 /* iosources */,
 				AD825F402BBA7BC600391F98 /* src */,
