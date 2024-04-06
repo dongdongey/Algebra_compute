@@ -65,6 +65,7 @@ void VectorFn(std::ifstream &input, std::ofstream &output){
     //std::cout << std::endl;
     dong::Vector v1(vec1);
     
+    
     if(fn=="mag"){
         double mag = v1.magnitude();
         
@@ -83,6 +84,7 @@ void VectorFn(std::ifstream &input, std::ofstream &output){
         //std::cout << temp << ' ';
         vec2.push_back(temp);
     }
+    
     //std::cout << std::endl;
     dong::Vector v2(vec2);
     

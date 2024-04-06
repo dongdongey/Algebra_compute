@@ -29,6 +29,10 @@ private:
     
     //벡터의 크기가 같아야하는 연산에서 가장 먼저 호출하는 함수 : 벡터의 크기가 다르면 에러 출력, 프로세스 종료
     void size_error(const size_t other_size) const;
+    
+    //동적할당 금지
+    void* operator new(size_t size) = delete;
+    void* operator new[](size_t size) = delete;
 public:
     
     

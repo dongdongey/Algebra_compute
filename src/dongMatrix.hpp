@@ -24,6 +24,10 @@ class Matrix{
     
     //error if(a != b)
     static void size_no_match (size_t a, size_t b);
+    
+    //동적할당 금지
+    void* operator new(size_t size) = delete;
+    void* operator new[](size_t size) = delete;
 public:
     //row() size
     size_t row() const;
