@@ -22,6 +22,13 @@ int main(int argc, const char * argv[]) {
     input.open("./iosources/input.txt");
     output.open("./iosources/output.txt");
     
+    if(!input||!output){
+        std::cout << "no files" << std::endl;
+        input.close();
+        output.close();
+        return 1;
+    }
+    
     std::string type;
     input >> type;
     std::cout << type << std::endl;
@@ -35,8 +42,7 @@ int main(int argc, const char * argv[]) {
         exit(1);
     }
     
-    input.close();
-    output.close();
+    
     return 0;
 }
 

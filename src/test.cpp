@@ -10,10 +10,10 @@
 using namespace dong;
 int main(){
     
-    Matrix mat1({{2,0,0,3}
-        ,{0,2,0,3}
-        ,{0,0,2,4}
-        ,{0,2,2,5}});
+    Matrix mat1({{2, 0, 0, 3}
+                ,{0, 2, 0, 3}
+                ,{0, 0, 2, 4}
+                ,{0, 2, 2, 5}});
     
     auto ret = mat1.invers();
     for (int i = 0; i < ret.row(); i++){
