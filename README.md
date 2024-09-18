@@ -2,7 +2,7 @@
 
 ## 기본
  - 명령어를 입력받는 파일은 `./iosources/input.txt`
- - 출력 결과를 내는 파일은 `/iosources/output.txt`
+ - 출력 결과를 내는 파일은 `./iosources/output.txt`
  - 입력파일 규칙
 ```
 ["matrix" or "vector"]
